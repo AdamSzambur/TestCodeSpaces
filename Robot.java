@@ -1,7 +1,9 @@
 public class Robot{
     private String name;
+    private String description;
 
-    public Robot(String name) {
+    public Robot(String name, String description) {
+        this.description = description;
         this.name = name;
     }
 
@@ -12,4 +14,5 @@ public class Robot{
     public void setName(String name) {
         this.name = name;
     }
+    
 }
